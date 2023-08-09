@@ -1,0 +1,428 @@
+*{
+ margin:0px;
+ padding:0px;
+ box-sizing:border-box;
+ background-repeat:no-repeat;
+}
+header{
+	width:100%;
+	height:100px;
+	background-color:;
+	
+	
+}
+header > .header-div{
+	width:1530px;
+	height:100%;
+	background-color:white;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-evenly;
+	position:relative;
+}
+.logo{
+	top: 3px;
+    position: absolute;
+    left: 125px;
+}
+ul{
+	display:flex;
+	position:absolute;
+	justify-content:space-evenly;
+	list-style:none;
+	column-gap: 41px;
+    top: 34px;
+    right: 85px;
+    font-size: 21px;
+    font-family: sans-serif;
+    color: #474752;
+	
+}
+.sec-1{
+	position:relative;
+	background-color:;
+	width:100%;
+	height:430px;
+	
+}
+#slide-d{
+	width:1530px;
+	height:430px;
+	margin:0 auto;
+	background-color:;
+}
+.slider1,.slider2,.slider3,.slider4{
+	position:absolute;
+	width:1530px;
+	height:430px;
+	margin:0 auto;
+	
+}
+.slider1{
+	background-image:url(photo1.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	animation: slide1 15s infinite;
+	margin:0 auto;
+}
+.slider2{
+	background-image:url(photo2.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	animation: slide2 15s infinite;
+}
+.slider3{
+	background-image:url(photo3.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	animation: slide3 15s infinite;
+	margin:0 auto;
+}
+.slider4{
+	background-image:url(photo4.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	animation: slide4 15s infinite;
+	margin:0 auto;
+}
+
+
+@keyframes slide1{
+	0%{
+		opacity:1;
+	}
+    25%{
+		opacity:0;
+	}
+	75%{
+		opacity:0;
+	}
+	100%{
+		opacity:0;
+	}
+		
+}
+
+@keyframes slide2{
+	0%{
+		opacity:0;
+	}
+    25%{
+		opacity:1;
+	}
+	75%{
+		opacity:0;
+	}
+	100%{
+		opacity:0;
+	}
+		
+}
+
+@keyframes slide3{
+	0%{
+		opacity:0;
+	}
+    25%{
+		opacity:0;
+	}
+	75%{
+		opacity:1;
+	}
+	100%{
+		opacity:0;
+	}
+		
+}
+
+@keyframes slide4{
+	0%{
+		opacity:0;
+	}
+    25%{
+		opacity:0;
+	}
+	75%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+		
+}
+
+@keyframes slide1{
+	0%{
+		opacity:1;
+	}
+    25%{
+		opacity:0;
+	}
+	75%{
+		opacity:0;
+	}
+	100%{
+		opacity:0;
+	}
+		
+}
+.div-2{
+	margin:0 auto;
+	position:relative;
+	background-color:;
+	width:1530px;
+	height:700px;
+	
+}
+h2{
+	position: absolute;
+    left: 470px;
+    top: 9px;
+    font-size: 53px;
+    font-family: sans-serif;
+}
+.log{
+	width: 45px;
+}
+p{
+	position: absolute;
+    font-size: 21px;
+    text-align: center;
+    top: 95px;
+    left: 175px;
+}
+hr{
+	border: 3px solid black;
+    position: absolute;
+    top: 75px;
+    width: 107px;
+    left: 716px;
+}
+.cards{
+	width:1530px;
+	height:100%;
+	display:flex;
+	justify-content:space-evenly;
+	position:relative;
+	top:207px;
+	left:-60px;
+}
+.card{
+	width:300px;
+	height:300px;
+	background-color:;
+	border:;
+}
+.third-div{
+	margin:0 auto;
+	width:1530px;
+	height:900px;
+	background-color:;
+	position:relative;
+}
+.sec-h{
+	position: absolute;
+    left: 535px;
+    font-size: 53px;
+    font-family: sans-serif;
+}
+.sec-card{
+	display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 46px;
+    top: 127px;
+    gap: 29px;
+}
+.third-h{
+	position: absolute;
+    top: 442px;
+    left: 536px;
+    font-size: 53px;
+    font-family: sans-serif;
+}
+.forth-div{
+	position: absolute;
+    top: 553px;
+	display:flex;
+	left:123px;
+}
+.im{
+	    height: 250px;
+		margin: 0 46px;
+}
+.third-div{
+	border:none;
+	border-bottom:1px solid gray;
+}
+h5{
+    margin: 0 0 0 122px;
+}
+.forth-h{
+	position: absolute;
+    top: -99px;
+}
+.third-sec{
+	margin:0 auto;
+	background-color:;
+	width:1530px;
+	height:500px;
+	position:relative;
+}
+.fifth-div{
+	display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    left: 139px;
+	top:123px;
+}
+footer{
+	width:1530px;
+	height:500px;
+	background-image:url('foot.jpg');
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	
+}
+form{
+	background-color:;
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    left: 100px;
+    text-align: center;
+    top: 37px;
+}
+h4{
+	margin: 18px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+input{
+	width: 363px;
+    height: 40px;
+    border-radius: 12px;
+	margin:19px;
+}
+button{
+	width: 327px;
+    height: 50px;
+    border-radius: 14px;
+    background-color: #039be5;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    color: white;
+}
+footer > p{
+	position: absolute;
+    left: 604px;
+    top: 11px;
+	font-size:15px;
+	font-weight:600;
+	font-family:sans-serif;
+}
+span{
+	font-weight:200;
+}
+.sec-p{
+	position: absolute;
+   left: 1291px;
+    top: 75px;
+}
+.boy{
+	position: absolute;
+    top: 361px;
+	animation:boy 10s linear infinite;
+}
+@keyframes boy{
+	 0%   { left:0px; bottom:0px;}
+  100%  {left:1530px; bottom:0px;}
+}
+.cyl{
+	position: absolute;
+    top: 361px;
+    left:-202px;
+	animation:cyl 10s linear 2.5s infinite;
+}
+@keyframes cyl{
+	 0%   { left:-202px; bottom:0px;}
+  100%  {left:1530px; bottom:0px;}
+}
+.car{
+	position: absolute;
+    top: 420px;
+    right: -50px;
+	animation:car 8s linear infinite;
+}
+@keyframes car{
+	 0%   { right:0px; bottom:0px;}
+  100%  {right:1530px; bottom:0px;}
+}
+.log{
+	
+	position: absolute;
+    left: 408px;
+    top: -95px;
+	animation:log0 2s linear infinite;
+}
+@keyframes logo0{
+	 0% { left:408px; top:20px;}
+  25%  { left:408px; top:0px;}
+  50%  { left:408px; top:0px;}
+  75%  { left:408px; top:0px;}
+  100% { left:408px; top:20px;}
+}
+.logo4{
+	width: 45px;
+	position: absolute;
+    left: 470px;
+    top: 11px;
+	animation:logo4 2s linear infinite;
+}
+@keyframes logo4{
+	 0% { left:470px; top:20px;}
+  25%  { left:470px; top:0px;}
+  50%  { left:470px; top:0px;}
+  75%  { left:470px; top:0px;}
+  100% { left:470px; top:20px;}
+}
+.logo5{
+	width: 45px;
+	position: absolute;
+    left: 401px;
+    top: 17px;
+	animation:logo5 2s linear infinite;
+
+}
+@keyframes logo5{
+	 0% { left:401px; top:20px;}
+  25%  { left:401px; top:0px;}
+  50%  { left:401px; top:0px;}
+  75%  { left:401px; top:0px;}
+  100% { left:401px; top:20px;}
+}
+.logo2{
+	width: 45px;
+    position: absolute;
+    left: 470px;
+    top: 445px;
+	animation:log 2s linear infinite;
+}
+@keyframes log2{
+	 0% { left:471px; top:20px;}
+  25%  { left:471px; top:0px;}
+  50%  { left:471px; top:0px;}
+  75%  { left:471px; top:0px;}
+  100% { left:471px; top:20px;}
+}
+.im{
+	border-radius: 0 18px;
+}
+.add{
+	top: 0px;
+    left: 608px;
+}
+

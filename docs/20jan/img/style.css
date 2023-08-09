@@ -1,0 +1,46 @@
+*{
+ margin:0px;
+ padding:0px;
+ box-sizing:border-box;
+}
+header{
+	max-width:1530px;
+	min-height:70px;
+	background-color:khaki;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+header > .box{
+	background-color:red;
+	height:20px;
+	width:65px;
+	border:none;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	margin-right:25px;
+}
+h1{
+	padding-left:20px;
+}
+.first-con{
+	margin:0 auto;
+	background-color:pink;
+	min-height:89vh;
+	max-width:1530px;
+	position:relative;
+}
+.first-con > div{
+	width:50%;
+	height:100%;
+	border:2px solid black;
+	position:absolute;
+	background-color:;
+	display:flex;
+}
+.right{
+	position:absolute;
+	right:0px;
+	background-image:url('rightv.jpg');
+}
